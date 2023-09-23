@@ -100,6 +100,16 @@ $favorite = [
 	"_code"=>"favorite",
 	"sort" => 100,
 	"items" => [
+        [
+            "title" => 'Запуск бизнес-процессов',
+            "imageUrl" => "https://cdn.iconscout.com/icon/premium/png-256-thumb/ico-1995286-1686572.png?f=webp&w=256",
+            "color" => "#33c3bd",
+            "hidden" => false,
+            "attrs" => [
+                "url" => "/mobile/business-process/",
+                "id" => "test_test",
+            ],
+        ],
 		[
 			"hidden" => ($isExtranetUser || !\Bitrix\Main\ModuleManager::isModuleInstalled("bizproc")),
 			"title" => Loc::getMessage("MB_BP_MAIN_MENU_ITEM"),
