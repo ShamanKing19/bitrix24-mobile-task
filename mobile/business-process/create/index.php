@@ -5,7 +5,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 
 <?php
 $APPLICATION->IncludeComponent(
-    'bitrix:lists.element.edit',
+    'skillline:lists.element.edit',
     '',
     [
         'IBLOCK_TYPE_ID' => 'bitrix_processes',
